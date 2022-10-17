@@ -46,9 +46,9 @@ public class TaxCalculator { //Creating TaxCalculator Class
 	int NettSalary;	
 	void calculateTax(float BasicSalary) { //Creating the first method calculateTax 
 	    Tax = (30 * BasicSalary / 100);
-		System.out.println("The Tax of the employee  for  the " + (int)BasicSalary + " is " + (int)Tax);} //Converting int to float
+		System.out.println("The Tax of the employee  for  the " + (int)BasicSalary + " is " + (int)Tax);} //Converting float to int
 	void deductTax(float BasicSalary) { //Creating the second method deductTax
-		int NettSalary =  (int)(BasicSalary - Tax); //Converting int to float
+		int NettSalary =  (int)(BasicSalary - Tax); //Converting float to int
 		System.out.println("The nett salary of the employee: " + NettSalary);}
 	void validateSalary(float BasicSalary) { //Creating the third method validateSalary
 		boolean b = (BasicSalary > 100000); //boolean value only returns true or false if condition matches
