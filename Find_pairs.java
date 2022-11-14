@@ -11,7 +11,7 @@ public class Find_pairs { // Main class
 	        GetPairs(arr, sum); // Calling method
 	    }
 	    public static void GetPairs(int[] arr, int sum) { // Creating method to find the pairs of elements whose sum is equal to a specific number
-	    	System.out.println("pairs which are equal to 8:- ");
+	    	System.out.println("pairs which sum are equal to 8:- ");
 	        for (int i = 0; i < arr.length; i++)
 	            for (int j = i + 1; j < arr.length; j++)
 	                if ((arr[i] + arr[j]) == sum)	 // if the sum is equal to the specific number
