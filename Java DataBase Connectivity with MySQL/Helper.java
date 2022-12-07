@@ -20,11 +20,7 @@ public class Helper {
 
 	public static void main(String[] args) throws SQLException {
 		MenuDriven md = new MenuDriven();
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter 1 to continue inserting data values or, enter 2 to stop and execute");
-		while(sc.nextInt()!=2) {
 			md.saveMenuDriven();
-			System.out.println("Press 1 to continue or, Press 2 to Stop");}
 			md.fetchMenuDriven();
 			md.updateMenuDriven();
 			md.deleteMenuDriven();
