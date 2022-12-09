@@ -19,7 +19,7 @@ public class Bank { // Creating main class
 		AD.withDrawAmount(150.00); // calling withDrawAmount method
 		System.out.println();
 		AD.Create_Account(980454470, "Prabhas", 20.34); // Taking input of second user
-		//AD.setAmount(1500.75);
+		AD.setAmount(1500.75);
 		AD.getAmount();
 		AD.withDrawAmount(100.34); 
 		}}
